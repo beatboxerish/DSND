@@ -1,5 +1,0 @@
-Please note that the ds adult.data has more observations than what we have in our notebook. This is because if we read adult.name we get
-to know that on removing observations with unknown values we get the no. of observations which our notebook has.
-
-Take care of this fact thru a readme when uploading to github.
-
