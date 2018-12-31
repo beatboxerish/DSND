@@ -1,7 +1,7 @@
 # DSND
 
 This is the repository for my Data Science Nanodegree projects from Udacity.
-There are 2 projects currently and each folder contains their html files and .ipynb Jupyter notebooks along with any other files 
+There are 3 projects currently and each folder contains their html files and .ipynb Jupyter notebooks along with any other files 
 which are needed.
 
 Finding_Donors_Supervised : I used supervised machine learning (classification) to find people who were most likely to be donors according to several publically available features from a dataset. The dataset for this project originates from the UCI Machine Learning Repository and was donated by Ron Kohavi and Barry Becker. I performed grid search to tune the model and explored feature importance using the AdaBoostClassifier. 
