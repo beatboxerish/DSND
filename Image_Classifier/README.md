@@ -4,21 +4,35 @@ I used transfer learning to train a neural network to predict the species of a f
 
 The syntax for the command line interface can be explained by the following : 
 
-1) Train a new network on a data set with train.py
-	Basic usage: python train.py data_directory
-        (Prints out training loss, validation loss, and validation accuracy as the network trains)
-        Options:
-            *Set directory to save checkpoints: python train.py data_dir --save_dir save_directory
-            *Choose architecture: python train.py data_dir --arch "vgg13"
-            *Set hyperparameters: python train.py data_dir --learning_rate 0.01 --hidden_units 512 --epochs 20
-            *Use GPU for training: python train.py data_dir --gpu
+1) To train a new network on a data set with train.py
+	
+Basic usage: python train.py data_directory (Prints out training loss, validation loss, and validation accuracy as the network trains)
+        
+Options:
 
-2) Predict flower name from an image with predict.py along with the probability of that name. That is, you'll pass in a single image /path/to/image and return the flower name and class probability.
-        Basic usage: python predict.py /path/to/image checkpoint
-        Options:
-            *Return top K most likely classes: python predict.py input checkpoint --top_k 3
-            *Use a mapping of categories to real names: python predict.py input checkpoint --category_names cat_to_name.json
-            *Use GPU for inference: python predict.py input checkpoint --gpu
+*Set directory to save checkpoints: python train.py data_dir --save_dir save_directory
+
+*Choose architecture: python train.py data_dir --arch "vgg13"
+
+*Set hyperparameters: python train.py data_dir --learning_rate 0.01 --hidden_units 512 --epochs 20
+
+*Use GPU for training: python train.py data_dir --gpu
+
+eg: python train.py /home/ishan/DSND/Image_Classifier/flowers --save_dir /home/ishan/DSND/Image_Classifier --arch "vgg13" --learning_rate 0.005
+
+2) Predict flower name from an image with predict.py along with the probability of that name. That is, you'll pass in a single image's /path/to/image and you will be returned the flower name and which were the most probable classes for that flower.
+       
+Basic usage: python predict.py /path/to/image checkpoint
+        
+Options:
+
+*Return top K most likely classes: python predict.py input checkpoint --top_k 3
+
+*Use a mapping of categories to real names: python predict.py input checkpoint --category_names cat_to_name.json
+
+*Use GPU for inference: python predict.py input checkpoint --gpu
+
+eg: python predict.py /home/ishan/DSND/Image_Classifier/flowers/train/1/image_06734.jpg /home/ishan/DSND/Image_Classifier/checkpoint.pth --top_k 2 --gpu 
 
 This folder has 5 sub-folders/files : 
 
@@ -31,4 +45,5 @@ This folder has 5 sub-folders/files :
 4) train.py : Contains all code related to developing a command line interface for creating and training a neural network.
 
 5) predict.py : Contains all code related to developing a command line interface for loading a trained neural network and using it to predict a given image.
-   
+
+	
