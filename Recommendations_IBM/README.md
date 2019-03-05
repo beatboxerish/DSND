@@ -4,7 +4,7 @@
 
 I analyzed the interactions that users have with articles on the IBM Watson Studio platform and made 3 recommendation models to recommend 
 new articles to them. I used a ranking based approach, a collaborative filtering approach and a machine learning approach.
-Your project is divided into the following tasks:
+The project is divided into the following tasks:
 
 1. Exploratory Data Analysis
 
