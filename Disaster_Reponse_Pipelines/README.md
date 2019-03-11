@@ -26,14 +26,13 @@ and the visualizations used have been coded by me.
 
 ## Files/Folders :
 
-1. app: contains all the files relating to the web API development. 
+All the below folders are contained in disaster_response_pipeline_project.
 
+1. app: contains all the files relating to the web API development. 
 2. data: contains the raw data, data processing script and its 
 corresponding jupyter notebook.
-
 3. models: contains the model training and saving script along with
  its jupyter notebook.
-
 4. imgs: contains screenshots of tha app.
 
 'Note: Look into each folder's README to find more information about 
@@ -53,5 +52,5 @@ its contents.'
 
 Here are some screeshots of the API:
 
-![yay](https://github.com/beatboxerish/DSND/Disaster_Response_Pipelines/disaster_response_pipeline_project/imgs/Screenshot\ from\ 2019-03-12\ 02-19-30.png)
+![yay](https://github.com/beatboxerish/DSND/Disaster_Response_Pipelines/disaster_response_pipeline_project/imgs/'Screenshot from 2019-03-12 02-19-30.png')
 
