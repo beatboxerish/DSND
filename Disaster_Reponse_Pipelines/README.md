@@ -2,12 +2,13 @@
 
 ## About :
 
-In this project, I have applied my data engineering and some NLP skills to 
+In this project, I have applied my data engineering and NLP skills to 
 analyze disaster data from Figure Eight to build a model for an API that 
 classifies disaster messages. I learnt how to create an ETL and a machine 
 learning pipeline to categorize messages sent during disaster events. These 
 maybe then directed to, according to the classified category, the appropriate
-disaster relief agency.
+disaster relief agency. The html templates were already provided by udacity 
+and the visualizations used have been coded by me.
 
 ## Usage:
 
@@ -25,4 +26,33 @@ disaster relief agency.
 
 ## Files/Folders :
 
-1. 
+1. app: contains all the files relating to the web API development. 
+
+2. data: contains the raw data, data processing script and its 
+corresponding jupyter notebook.
+
+3. models: contains the model training and saving script along with
+ its jupyter notebook.
+
+4. imgs: contains screenshots of tha app.
+
+'Note: Look into each folder's README to find more information about 
+its contents.'
+
+## Requirements :
+
+1. Flask
+2. NLTK
+3. numpy
+4. plotly
+5. pandas
+6. sklearn
+7. sqlalchemy  
+
+## Screenshots :
+
+Here are some screeshots of the API:
+
+![yay](disaster_response_pipeline_project/imgs/'Screenshot from 2019-03-12 02-19-30.png'
+?raw=true)
+
