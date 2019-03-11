@@ -52,5 +52,11 @@ its contents.'
 
 Here are some screeshots of the API:
 
-![yay](https://github.com/beatboxerish/DSND/Disaster_Response_Pipelines/disaster_response_pipeline_project/imgs/'Screenshot from 2019-03-12 02-19-30.png')
+![yay](https://github.com/beatboxerish/DSND/blob/master/Disaster_Reponse_Pipelines/disaster_response_pipeline_project/imgs/Screenshot%20from%202019-03-12%2002-19-30.png)
+
+![yay](https://github.com/beatboxerish/DSND/blob/master/Disaster_Reponse_Pipelines/disaster_response_pipeline_project/imgs/Screenshot%20from%202019-03-12%2002-19-42.png)
+
+![yay](https://github.com/beatboxerish/DSND/blob/master/Disaster_Reponse_Pipelines/disaster_response_pipeline_project/imgs/Screenshot%20from%202019-03-12%2002-20-54.png)
+
+![yay](https://github.com/beatboxerish/DSND/blob/master/Disaster_Reponse_Pipelines/disaster_response_pipeline_project/imgs/Screenshot%20from%202019-03-12%2002-21-15.png)
 
