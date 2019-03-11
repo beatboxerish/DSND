@@ -23,3 +23,10 @@ I used unsupervised learning techniques to organize the general population into 
 recommendation models to recommend new articles to them. I used a ranking based approach, a collaborative filtering approach and a machine
 learning approach.
  
+* **Disaster Response Pipelines :** In this project, I have applied my data engineering and NLP skills to
+analyze disaster data from Figure Eight to build a model for an API that
+classifies disaster messages. I learnt how to create an ETL and a machine
+learning pipeline to categorize messages sent during disaster events. These
+maybe then directed to, according to the classified category, the appropriate
+disaster relief agency. The html templates were already provided by udacity
+and the visualizations used have been coded by me.
